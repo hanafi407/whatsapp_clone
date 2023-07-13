@@ -7,6 +7,7 @@ class MobileLayoutScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    print('mobileLayoutScreen');
     return DefaultTabController(
       length: 3,
       child: Scaffold(
